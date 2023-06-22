@@ -14,7 +14,7 @@ try
 }
 catch (Exception ex)
 {
-    Log.Fatal(ex, "Program terminated unexpectedly ({ApplicationContext})!", Program.AppName);
+    Log.Fatal(ex, "Program terminated unedfsfsdxpectedly ({ApplicationContext})!", Program.AppName);
     return 1;
 }
 finally
