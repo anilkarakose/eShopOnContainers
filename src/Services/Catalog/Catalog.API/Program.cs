@@ -7,7 +7,7 @@ try
     Log.Information("Configuring web host ({ApplicationContext})...", Program.AppName);
     var host = CreateHostBuilder(configuration, args);
 
-    Log.Information("Applying migrations ({ApplicationContext})...", Program.AppName);
+    Log.Information("Applyissng migrations ({ApplicationContext})...", Program.AppName);
     host.MigrateDbContext<CatalogContext>((context, services) =>
     {
         var env = services.GetService<IWebHostEnvironment>();
