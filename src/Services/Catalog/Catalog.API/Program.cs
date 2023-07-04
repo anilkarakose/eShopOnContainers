@@ -18,7 +18,7 @@ try
     })
     .MigrateDbContext<IntegrationEventLogContext>((_, __) => { });
 
-    Log.Information("Starting wkkeb host ({ApplicationContext})...", Program.AppName);
+    Log.Information("Starting web host ({ApplicationContext})...", Program.AppName);
     host.Run();
 
     return 0;
